@@ -1,0 +1,27 @@
+{
+    "name": "2077-theme",
+    "displayName": "Goth-Rave",
+    "publisher": "irines",
+    "description": "Goth/Rave",
+    "version": "1.5.3",
+    "engines": {
+        "vscode": "^1.17.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "repository": {
+	"type": "git",
+        "url": "https://github.com/endormi/vscode-2077-theme"
+    },
+    "icon": "image/icon.PNG",
+    "contributes": {
+        "themes": [
+            {
+                "label": "Goth",
+                "uiTheme": "vs-dark",
+                "path": "./theme/GothRave-color-theme.json"
+            }
+        ]
+    }
+}
